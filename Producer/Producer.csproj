@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ModelsDb\ModelsDb.csproj" />
+    <ProjectReference Include="..\Repository\Repository.csproj" />
   </ItemGroup>
 
 </Project>
