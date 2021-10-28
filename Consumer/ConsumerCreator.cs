@@ -17,20 +17,20 @@ namespace Consumer
                 consumerIDs.Add(i);
                 var taskHandler = new TaskHandler(consumer.Id, bulkSize);
                 Thread thread = new Thread(new ThreadStart(taskHandler.HandleTasks));
+                thread.IsBackground = true;
                 thread.Start();
             }
 
-            Thread.Sleep(10000);
-            while(true)
+            while (!Console.KeyAvailable)
             {
+                Thread.Sleep(10000);
                 Console.WriteLine();
                 var taskStatistic = new TasksStatistic();
                 taskStatistic.GetLatestTasks(consumerIDs);
                 Console.WriteLine();
-                taskStatistic.GetTasksStatistic();
-                Thread.Sleep(10000);
+                taskStatistic.GetTasksStatistic();                
             }
-          
+
         }
     }
 }

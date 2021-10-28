@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "Producer\Producer.csproj", "{343F7377-255B-43CB-A2CF-7A3346EAEC8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{810528A3-13F3-453C-A33E-E259EE3B581C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{810528A3-13F3-453C-A33E-E259EE3B581C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelsDb", "ModelsDb\ModelsDb.csproj", "{E46A18E3-AF65-476C-81E7-B5C5FECB6F0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "ModelsDb\Models.csproj", "{E46A18E3-AF65-476C-81E7-B5C5FECB6F0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{1CBD1648-D458-45C3-9A20-A6EE8562CA6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksRepository", "Repository\TasksRepository.csproj", "{1CBD1648-D458-45C3-9A20-A6EE8562CA6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModelsDb\ModelsDb.csproj" />
-    <ProjectReference Include="..\Repository\Repository.csproj" />
+    <ProjectReference Include="..\ModelsDb\Models.csproj" />
+    <ProjectReference Include="..\Repository\TasksRepository.csproj" />
   </ItemGroup>
 
 </Project>

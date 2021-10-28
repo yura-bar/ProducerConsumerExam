@@ -13,9 +13,8 @@ namespace Consumer
             Console.WriteLine("How many tasks consumer should take every time check for new tasks? ");
             int bulkSize = int.Parse(Console.ReadLine());
             var consumerCreator = new ConsumerCreator();
-            consumerCreator.CreateConsumerAndHandleTasks(consumersQuantity, bulkSize);            
-
-            Console.ReadLine();
+            consumerCreator.CreateConsumerAndHandleTasks(consumersQuantity, bulkSize);      
+                    
         }
     }
 }
